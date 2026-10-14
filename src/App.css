@@ -1,0 +1,56 @@
+.debug-app {
+  background-color: #0b1120;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(14, 165, 233, 0.12) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(99, 102, 241, 0.12) 0px, transparent 50%),
+    linear-gradient(to bottom, #0b1120, #0f172a);
+  color: #f8fafc;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.title-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #38bdf8 50%, #818cf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-light-50 {
+  color: #94a3b8;
+}
+
+.text-light-70 {
+  color: #cbd5e1;
+}
+
+/* Mode Switcher */
+.mode-toggle-card {
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.custom-debug-card {
+  background: rgba(15, 23, 42, 0.9) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 1.25rem !important;
+  color: #f8fafc !important;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.custom-debug-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(56, 189, 248, 0.4) !important;
+}
+
+.report-card {
+  border-radius: 1.5rem !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.25rem;
+  color: #38bdf8;
+}

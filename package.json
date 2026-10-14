@@ -1,0 +1,24 @@
+{
+  "name": "gomycode-react-debugging-checkpoint",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GoMyCode Bootcamp - Checkpoint Debugging React (React DevTools inspection, state/props diagnosis, debugging report)",
+  "author": "Karma-22 (Darius Ange)",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  }
+}
